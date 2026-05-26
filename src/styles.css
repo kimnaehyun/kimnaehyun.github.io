@@ -858,6 +858,35 @@ button {
   cursor: pointer;
 }
 
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+.project-card-footer {
+  margin-top: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 18px;
+
+  border-top: 1px solid var(--line);
+
+  color: var(--accent);
+
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.project-arrow {
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover .project-arrow {
+  transform: translateX(4px);
+}
+
 .project-card-top {
   display: flex;
   flex-direction: column;
