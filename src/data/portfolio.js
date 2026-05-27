@@ -13,7 +13,7 @@ export const experiences = [
   {
     org: "MHGKOREA",
     type: "정규직",
-    role: "Software Engineer",
+    role: "Android Developer",
     place: "서울",
     period: "2023.10 - 2024.06",
     description:
